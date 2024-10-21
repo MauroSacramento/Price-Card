@@ -18,7 +18,7 @@ Este projeto visa desenvolver uma página de preços interativa e responsiva que
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="" width="100%">
+  <img alt="projeto Pricing-Card" src="assets/price_card.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
