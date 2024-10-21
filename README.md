@@ -1,8 +1,7 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> Price Card Page </h1>
 
 <p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
+Este projeto visa desenvolver uma página de preços interativa e responsiva que permite aos usuários visualizar e comparar diferentes planos de forma clara e atrativa. A página foi criada com foco na experiência do usuário, utilizando um design moderno e intuitivo. <br/>
 </p>
 
 <p align="center">
@@ -19,7 +18,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.jpg" width="100%">
+  <img alt="projeto DevLinks" src="" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -33,20 +32,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+A página de preços é uma página que se adapta a diferentes tamanhos de tela, apresentado cards de preços, onde cada plano é apresentado
+em um cartão visualmente atraente, com informações sobre recursos e preços.
 
 - [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
-
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
-
----
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
