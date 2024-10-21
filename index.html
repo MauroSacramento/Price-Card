@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="packdet">
+        <p>Your current plan</p>
+        <h3>Starter Trial + 500Maus</h3>
+    </div>
+
+    <div class="switchtog">
+        <h1>Choose a plan</h1>
+        <div class="switchtodiv">
+            <p>Billed monthly</p><input type="checkbox" id="toggle"><label for="toggle" class="toglabel"></label>
+            <p>Billed anually</p>
+        </div>
+    </div>
+
+    <div class="packson">
+        <div class="starter">
+            <h3>Starter</h3>
+            <h1 id="starterprice">$19</h1>
+            <ul>
+                <li>500 MAUs</li>
+                <li>3 projects</li>
+                <li>Unlimited guides</li>
+                <li>Unlimited flows</li>
+                <li>Unlimited branded themes</li>
+                <li>Email support</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="starter">
+            <h3>Pro</h3>
+            <h3></h3>
+            <h1 id="monthprice">$99/month</h1>
+
+            <select name="maus" id="maus">
+                <option value="2500 MAUs">2500 MAUs</option>
+                <option value="3500 MAUs">3500 MAUs</option>
+                <option value="4500 MAUs">2500 MAUs</option>
+                <option value="5500 MAUs">3500 MAUs</option>
+            </select>
+            <p id="redcon">Monthly active users</p>
+
+            <ul>
+                <li>All starter features</li>
+                <li>Unlimited projects</li>
+                <li>All pro features</li>
+                <li>Unlimited fully customizable themes</li>
+            </ul>
+            <button>Choose Plan</button>
+        </div>
+
+        <div class="starter">
+            <h3>Enterprise</h3>
+            <h1>Let's Talk</h1>
+
+            <ul>
+                <li>All pro features</li>
+                <li>Unlimited MAUs</li>
+                <li>Dedicated environment</li>
+                <li>Enterprise account administration</li>
+                <li>Premium support and services</li>
+            </ul>
+            <button>Contact Us</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body{
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    width: 130vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    background-color: black;
+    margin-bottom: 5%;
+}
+
+#packdet{
+    background-color: rgb(244, 16, 108);
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.switchtog{
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+.switchtodiv {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.toglabel{
+    background-color: gray;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50px;
+}
+.toglabel::before{
+    content: '';
+    background-color: white;
+    width: 17px;
+    height: 17px;
+    border-radius: 50px;
+    left: 3%;
+    top: 9%;
+    position: absolute;
+}
+
+input{
+    display: none;
+}
+input:checked + .toglabel::before{
+    transform: translate(20px);
+}
+
+.packson{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.starter{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: rgb(15, 15, 15);
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+h3{
+    padding: 10px;
+}
+h1{
+    padding: 15px;
+}
+
+li::marker{
+    color: rgb(244, 16, 108);
+}
+
+li{
+    padding: 5px;
+    text-align: left;
+    list-style-position: inside-block;
+}
+
+button, select{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(244, 16, 108);
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(244, 16, 108);
+}
+select{
+    width: 250px;
+    border: 1px solid grey;
+}
+
+select:focus{
+    outline: none;
+}
+
+#redcon{
+    font-size: 13px;
+    padding: 0px 0px 5px;
+    color: rgb(244, 16, 108);
+    margin-left: -100px;
+}
+
+@media (max-width: 640px){
+    .packson{
+        flex-direction:column;
+    }
+}
