@@ -35,7 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 A página de preços é uma página que se adapta a diferentes tamanhos de tela, apresentado cards de preços, onde cada plano é apresentado
 em um cartão visualmente atraente, com informações sobre recursos e preços.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+- [Acesse o projeto finalizado, online](https://maurosacramento.github.io/Price-Card/)
 
 ## :memo: Licença
 
